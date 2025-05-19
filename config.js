@@ -46,7 +46,7 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD || "true",
     PREFIX: process.env.PREFIX || ".",
     FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
-    FAKE_TYPING: process.env.FAKE_TYPING || "true",
+    FAKE_TYPING: process.env.FAKE_TYPING || "false",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     CURRENT_STATUS: process.env.CURRENT_STATUS || "false",
     AUTO_REACT: process.env.AUTO_REACT || "false",
